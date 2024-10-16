@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Codigo de la pagina para que empiece justo arriba del todo*/
+        * {padding: 0;
+            margin: 0;}
+
+            a {text-decoration: none;}
+            
+        /* Código página */
+
+         header,nav,main,footer {width: 80%; 
+                                margin: 0 auto;}
+
+        header {min-height: 8rem;
+                background-color: pink;}
+
+        nav {min-height: 4rem;
+            background-color: orange;}
+
+        main {min-height: 20rem;
+            background-color: lightblue;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;}
+
+        footer {min-height: 7rem;
+                background-color: chartreuse;}
+
+        .ponerBorde {border: 0.3rem solid black;}
+        main div {width: 30%;
+            min-height: 5rem;
+            background-color: lightgray;
+            border: 0.02rem solid red;}
+
+        .izda {background-color: rgb(170, 199, 199); text-align: left;}
+        .dcha {text-align:justify;}
+
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+    <nav class="ponerBorde">
+
+    </nav>
+    <main id="principal">
+        <div class="izda">Lorem ipsum dolor sit amet</div>
+        <div class="dcha">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+        <div class="centro">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+        <div class="2izda">Lorem ipsum dolor sit amet, consectetur adipiscing elit,</div>
+
+    </main>
+    <footer class="ponerBorde">
+
+    </footer>
+
+</body>
+</html>
