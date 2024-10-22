@@ -9,7 +9,8 @@
         margin-right: 0rem;}
         
 /* Código página en desktop */
-
+    
+    body {padding-top: 7rem;}
     header,nav,main,footer {width: 80%; 
                             margin: 0 auto;}
 
@@ -17,9 +18,13 @@
             background-color: pink;}
 
     nav {min-height: 7rem;
-        background-color: orange;}
+        background-color: orange;
+        position:fixed;
+        top: 0;
+        left: 10%;
+        }
 
-    main {min-height: 20rem;
+    main {min-height: 60rem;
         background-color: lightblue;
         display: flex;
         justify-content: space-around;
@@ -74,8 +79,8 @@
         background-color: rgb(214, 201, 227);
         transition: 500ms;
         }
-      header {display: flex;}
-
+    
+    header {display: flex;}
     header>div {border: 0.2rem solid red;}
     header>div.logo {width: 25%;}
     header>div.titulo {width: 75%;
@@ -83,14 +88,28 @@
                     justify-content:flex-end;
                     flex-direction: column;
                     align-items: center;
-                }    
+                    }    
     
     h1, h2, p {width: 50%;
-                    background-color: cadetblue;
-                    margin: 0.2rem;
-                    border: 0.3rem solid green;
-                text-align: center;}
+                background-color: cadetblue;
+                margin: 0.2rem;
+                border: 0.3rem solid green;
+                text-align: center;
+                }
 
+
+    section {width: 100%;
+        background-color: chartreuse;
+            min-height: 20rem;
+        border: 0.1rem solid red;
+        display: flex;}
+    article.mapa {width: 40%;
+        border: 0.1rem solid red;}
+    article.form {width: 60%;
+                background-color: darkgray;
+                border: 0.1rem solid red;
+                min-height: 20rem;
+                }           
 /* Código de página en tablet */
 
 
