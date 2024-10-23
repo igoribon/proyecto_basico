@@ -10,7 +10,7 @@
         
 /* Código página en desktop */
     
-    body {padding-top: 7rem;}
+    main {padding-top: 7rem;}
     header,nav,main,footer {width: 80%; 
                             margin: 0 auto;}
 
